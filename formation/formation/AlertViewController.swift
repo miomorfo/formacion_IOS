@@ -16,6 +16,7 @@ class AlertViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+	//ALERTVIEW
 
 	@IBAction func alert(_ sender: Any) {
 		let alerView = UIAlertController(title: "Alerta", message: "esto es un alertView", preferredStyle: UIAlertController.Style.alert )
@@ -25,7 +26,29 @@ class AlertViewController: UIViewController {
 		self.present(alerView, animated: true, completion: nil)
 	}
 	
+	//ACTIONSHEET
+	
 	@IBAction func actionSheet(_ sender: Any) {
+		let menu = UIAlertController(title: "ActionSheet", message: "menú", preferredStyle: UIAlertController.Style.actionSheet)
+		
+		//los mensajes de los actionSheet se mostrarán por consola
+		
+		//opción 1
+		menu.addAction(UIAlertAction(title: "Opcion 1", style: UIAlertAction.Style.default, handler: { (alert: UIAlertAction) -> Void in
+			print("has seleccionado la opción uno")
+		}))
+		
+		//opción 2
+		menu.addAction(UIAlertAction(title: "Opcion 2", style: UIAlertAction.Style.default, handler: { (UIAlertAction) in
+			print("has seleccionado la opción dos")
+		}))
+		
+		//opción 2
+		menu.addAction(UIAlertAction(title: "Opcion 3", style: UIAlertAction.Style.default, handler: { (UIAlertAction) in
+			print("has seleccionado la opción tres")
+		}))
+		
+		self.present(menu, animated: true, completion: nil)
 		
 	}
 	
