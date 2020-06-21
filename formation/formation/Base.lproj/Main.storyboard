@@ -75,10 +75,10 @@
             </objects>
             <point key="canvasLocation" x="2473" y="627"/>
         </scene>
-        <!--View Controller-->
+        <!--Alert View Controller-->
         <scene sceneID="WY6-5x-Izu">
             <objects>
-                <viewController id="dw6-DK-j1j" sceneMemberID="viewController">
+                <viewController id="dw6-DK-j1j" customClass="AlertViewController" customModule="formation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nhD-Fg-Nf3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -92,6 +92,9 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="actionSheet:" destination="dw6-DK-j1j" eventType="touchUpInside" id="9aT-VP-eju"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kru-PK-H3t">
                                 <rect key="frame" x="25" y="207" width="325" height="30"/>
@@ -102,6 +105,9 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="alert:" destination="dw6-DK-j1j" eventType="touchUpInside" id="ifX-6z-dsU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>

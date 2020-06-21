@@ -14,6 +14,7 @@
 		EDCCFFB4249D479F00CFA162 /* formation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDCCFFB2249D479F00CFA162 /* formation.xcdatamodeld */; };
 		EDCCFFB6249D47A600CFA162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCCFFB5249D47A600CFA162 /* Assets.xcassets */; };
 		EDCCFFB9249D47A600CFA162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCCFFB7249D47A600CFA162 /* LaunchScreen.storyboard */; };
+		EDCCFFC1249FC44000CFA162 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCFFC0249FC44000CFA162 /* AlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		EDCCFFB5249D47A600CFA162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDCCFFB8249D47A600CFA162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDCCFFBA249D47A600CFA162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDCCFFC0249FC44000CFA162 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				EDCCFFA9249D479F00CFA162 /* AppDelegate.swift */,
 				EDCCFFAB249D479F00CFA162 /* SceneDelegate.swift */,
 				EDCCFFAD249D479F00CFA162 /* ViewController.swift */,
+				EDCCFFC0249FC44000CFA162 /* AlertViewController.swift */,
 				EDCCFFAF249D479F00CFA162 /* Main.storyboard */,
 				EDCCFFB5249D47A600CFA162 /* Assets.xcassets */,
 				EDCCFFB7249D47A600CFA162 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				EDCCFFAE249D479F00CFA162 /* ViewController.swift in Sources */,
 				EDCCFFB4249D479F00CFA162 /* formation.xcdatamodeld in Sources */,
 				EDCCFFAA249D479F00CFA162 /* AppDelegate.swift in Sources */,
+				EDCCFFC1249FC44000CFA162 /* AlertViewController.swift in Sources */,
 				EDCCFFAC249D479F00CFA162 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
