@@ -73,7 +73,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zq5-OS-aSY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2473" y="627"/>
+            <point key="canvasLocation" x="2534" y="571"/>
         </scene>
         <!--Alert View Controller-->
         <scene sceneID="WY6-5x-Izu">
@@ -83,21 +83,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qfL-Ch-Hl2">
-                                <rect key="frame" x="25" y="152" width="325" height="30"/>
-                                <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Acction Sheet "/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <integer key="value" value="8"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="actionSheet:" destination="dw6-DK-j1j" eventType="touchUpInside" id="9aT-VP-eju"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kru-PK-H3t">
-                                <rect key="frame" x="25" y="207" width="325" height="30"/>
+                                <rect key="frame" x="25" y="152" width="325" height="30"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="AlertView"/>
                                 <userDefinedRuntimeAttributes>
@@ -109,15 +96,28 @@
                                     <action selector="alert:" destination="dw6-DK-j1j" eventType="touchUpInside" id="ifX-6z-dsU"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qfL-Ch-Hl2">
+                                <rect key="frame" x="25" y="207" width="325" height="30"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Acction Sheet "/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="actionSheet:" destination="dw6-DK-j1j" eventType="touchUpInside" id="9aT-VP-eju"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="Kru-PK-H3t" firstAttribute="leading" secondItem="efn-qE-Tjs" secondAttribute="leading" constant="25" id="Teu-RK-kCd"/>
-                            <constraint firstItem="Kru-PK-H3t" firstAttribute="top" secondItem="qfL-Ch-Hl2" secondAttribute="bottom" constant="25" id="dgD-WE-Ioy"/>
-                            <constraint firstItem="qfL-Ch-Hl2" firstAttribute="top" secondItem="efn-qE-Tjs" secondAttribute="top" constant="108" id="h22-Kk-aaU"/>
-                            <constraint firstItem="efn-qE-Tjs" firstAttribute="trailing" secondItem="Kru-PK-H3t" secondAttribute="trailing" constant="25" id="nzD-sv-BeR"/>
-                            <constraint firstItem="qfL-Ch-Hl2" firstAttribute="leading" secondItem="efn-qE-Tjs" secondAttribute="leading" constant="25" id="p0Y-lF-iHk"/>
-                            <constraint firstItem="efn-qE-Tjs" firstAttribute="trailing" secondItem="qfL-Ch-Hl2" secondAttribute="trailing" constant="25" id="wWo-af-yfP"/>
+                            <constraint firstItem="Kru-PK-H3t" firstAttribute="top" secondItem="efn-qE-Tjs" secondAttribute="top" constant="108" id="8Ue-DO-scX"/>
+                            <constraint firstItem="efn-qE-Tjs" firstAttribute="trailing" secondItem="Kru-PK-H3t" secondAttribute="trailing" constant="25" id="DXp-2c-6b2"/>
+                            <constraint firstItem="Kru-PK-H3t" firstAttribute="leading" secondItem="efn-qE-Tjs" secondAttribute="leading" constant="25" id="JIq-8e-PjF"/>
+                            <constraint firstItem="qfL-Ch-Hl2" firstAttribute="top" secondItem="Kru-PK-H3t" secondAttribute="bottom" constant="25" id="Lfh-2M-JtU"/>
+                            <constraint firstItem="efn-qE-Tjs" firstAttribute="trailing" secondItem="qfL-Ch-Hl2" secondAttribute="trailing" constant="25" id="Tmp-2b-QWw"/>
+                            <constraint firstItem="qfL-Ch-Hl2" firstAttribute="leading" secondItem="efn-qE-Tjs" secondAttribute="leading" constant="25" id="fa3-3J-s4F"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="efn-qE-Tjs"/>
                     </view>
@@ -125,7 +125,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S7t-Gf-cp4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2473" y="-52"/>
+            <point key="canvasLocation" x="2534" y="-109"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="CKt-sL-CCa">
